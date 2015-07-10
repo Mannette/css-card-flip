@@ -1,1 +1,27 @@
 /* add your styles here */
+
+.primary, .seconday {
+  position: absolute;
+}
+
+.primary {
+  opacity: 1;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+
+.secondary {
+  opacity: 0;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+
+.portfolio-item:hover .primary {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+
+.portfolio-item:hover .secondary {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
