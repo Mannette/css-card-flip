@@ -7,3 +7,7 @@
  - On hover, hide `.primary` and show `.secondary`
  - Set up a transition so that you have a smooth crossfade on hover
  - Switch your portfolio to use 3D rotations to produce a card-flip effect
+
+
+####Link to codepen
+http://codepen.io/Mannette/pen/mJLMVe
